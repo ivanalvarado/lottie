@@ -1,7 +1,7 @@
 # Lottie
 A simple Android app that displays an animation with [Lottie](https://airbnb.io/lottie/#/README).
 
-![app gif](https://github.com/ivanalvarado/lottie/blob/master/lottie_sample.gif)
+![app gif](https://github.com/ivanalvarado/lottie/blob/master/readme_assets/lottie_sample.gif)
 
 ## Installation
 In your module level gradle file:
@@ -18,7 +18,7 @@ You can find public animations at [lottiefiles.com](https://lottiefiles.com/)
 
 [Load an animation](https://airbnb.io/lottie/#/android?id=loading-an-animation) in your `src/main/assets` folder.
 
-![assets file structure](https://github.com/ivanalvarado/lottie/blob/master/assets_file_structure.png)
+![assets file structure](https://github.com/ivanalvarado/lottie/blob/master/readme_assets/assets_file_structure.png)
 
 In your layout file, add a `LottieAnimationView` that references your animation file via `app:lottie_filename`
 ```xml
