@@ -16,7 +16,7 @@ You can find public animations at [lottiefiles.com](https://lottiefiles.com/)
 
 [Load an animation](https://airbnb.io/lottie/#/android?id=loading-an-animation) in your `src/main/assets` folder.
 
-
+![assets file structure](https://github.com/ivanalvarado/lottie/blob/master/assets_file_structure.png)
 
 ```xml
 <com.airbnb.lottie.LottieAnimationView
