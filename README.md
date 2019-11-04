@@ -1,6 +1,8 @@
 # Lottie
 A simple Android app that displays an animation with [Lottie](https://airbnb.io/lottie/#/README).
 
+![app gif](https://github.com/ivanalvarado/lottie/blob/master/lottie_sample.gif)
+
 ## Installation
 In your module level gradle file:
 ```gradle
