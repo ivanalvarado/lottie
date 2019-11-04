@@ -6,11 +6,14 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/PrimaryButton</item>
+        <item name="android:buttonStyle">@style/PrimaryButton</item>
     </style>
 
-    <style name="PrimaryButton" parent="Theme.AppCompat.Light.DarkActionBar">
-        <item name="colorButtonNormal">@color/colorPrimary</item>
-        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+    <style name="PrimaryButton" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:padding">20dp</item>
     </style>
 
 </resources>

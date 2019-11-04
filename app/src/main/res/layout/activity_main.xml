@@ -17,17 +17,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_fileName="filling_beer.json" />
 
-    <Button
-        android:id="@+id/cheers_button"
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="30dp"
-        android:padding="20dp"
-        android:text="@string/cheers"
-        android:backgroundTint="@color/colorPrimary"
-        android:textColor="@color/colorWhite"
+        android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play" />
+
+        <Button
+            android:id="@+id/loop_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/loop"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
