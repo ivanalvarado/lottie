@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
 
         loop_button.setOnClickListener {
             filling_beer_animation.repeatCount = LottieDrawable.INFINITE
-            filling_beer_animation.repeatMode = LottieDrawable.RESTART
             filling_beer_animation.playAnimation()
         }
     }
