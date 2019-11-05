@@ -32,6 +32,7 @@ In your layout file, add a `LottieAnimationView` that references your animation 
 Then, in your Activity/Fragment simply `playAnimation()`.
 ```kotlin
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
